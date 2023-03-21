@@ -53,6 +53,7 @@ a {
 	min-width: 86px;
 	display: flex;
 	justify-self: flex-end;
+	text-decoration-line: underline;
 }
 .firstbutton {
 	min-width: 130px;
@@ -86,8 +87,15 @@ a {
 	min-width: 689px;
 }
 
+
+.policyblock {
+	text-decoration-line: underline;
+	color: #FFFFFF;
+}
+
 .usecookies {
 	color: #FFFFFF;
+	text-decoration-line: underline;
 }
 .closeimg {
 	display: inline-block;
@@ -385,4 +393,16 @@ span{
 }
 .firstbutton:active {
 	background: #4ad2952a;
+}
+
+
+.usecookies:hover {
+	text-decoration: none;
+}
+
+.firstlink:hover {
+	text-decoration: none;
+}
+.policyblock:hover {
+	text-decoration: none;
 }
