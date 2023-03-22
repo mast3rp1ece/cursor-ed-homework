@@ -406,3 +406,19 @@ span{
 .policyblock:hover {
 	text-decoration: none;
 }
+
+.read:hover {
+	text-decoration-line: underline;
+}
+
+.policycook:hover {
+	text-decoration-line: underline;
+}
+
+.fb-options:hover {
+	text-decoration: underline;
+}
+
+.lb2-options:hover {
+	text-decoration: underline;
+}
