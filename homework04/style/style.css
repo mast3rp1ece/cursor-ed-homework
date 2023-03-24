@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+
+@import url(./reset.css);
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+.wrapper {
+	max-width: 1100px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+header {
+	background-color: #ED4C5C;
+	height: 500px;
+} 
+
+.info_blocks {
+	
+}
+.appleicon {
+	margin: 0 25px;
+}
+
+.info {
+	padding-top: 122px;
+	display: inline-block;
+}
+.infotitle {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	color: #FFFFFF;
+	font-style: normal;
+	width: 445px;
+	margin-bottom: 24px;
+}
+.infoinfo {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	/* or 20px */
+	text-align: justify;
+	color: #FFFFFF;
+	font-style: normal;
+	width: 445px;
+	margin-bottom: 44px;
+}
+.infoicons {
+}
+.googleicon {
+}
+.appleicon {
+}
+.windowsicon {
+}
+
+.slider {
+	display: inline-block;
+	position: relative;
+	min-width: 533px;
+	height: 311px;
+	margin-right: auto;
+	left: 125px;
+	top: 45px;
+}
+
+.bcgrleft {
+	position: absolute;
+	left: -44px;
+	top: 22px;
+}
+.bcgrright {
+	position: absolute;
+	right: 44px;
+	top: 22px;
+}
+.mainimg {
+	position: absolute;
+}
+
+ main {
+	height: 545px;
+ }
+
+.contact_block {
+	margin: 0 auto;
+	position: relative;
+}
+
+.contacts {
+	display: inline-block;
+	margin-right: 50px;
+	position: absolute;
+	top: 117px;
+}
+.title2 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	color: #000000;
+	font-style: normal;
+	margin-bottom: 64px;
+}
+.subtitle {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: justify;
+	color: #000000;
+	font-weight: 400;
+	width: 434px; 
+}
+.inputs {
+	display: inline-block;
+	padding-top: 117px;
+	padding-left: 550px;
+}
+.selection_first_option {
+	
+}
+
+input {
+	border: 1px solid #333333;
+	border-radius: 6px;
+	padding-left: 31px;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 400;
+	color: rgba(19, 39, 67, 0.5);
+}
+
+.first_name {
+	width: 224px;
+	height: 60px;
+	margin-right: 23px;
+}
+.last_name {
+	width: 224px;
+	height: 60px;
+}
+
+.phone_input {
+	width: 509px;
+	height: 60px;
+	margin: 24px 0;
+}
+
+.selection_input {
+	width: 544px;
+	height: 60px;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	padding-left: 31px;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 400;
+	color: rgba(19, 39, 67, 0.5);
+	
+}
+
+.sumbit_button {
+	margin-top: 27px;
+	width: 160px;
+	left: 735px;
+	top: 872px;
+	background: #ED4C5C;
+	border: 1.5px solid #ED4C5C;
+	border-radius: 6px;
+	height: 50px;
+	color: #FFFFFF
+	
+}
+
+button{
+	cursor: pointer;
+}
+
+
+footer {
+	height: 435px;
+	background: #FAFAFA;
+}
+.adress {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 130px;
+	margin-top: 85px;
+}
+
+.ftsbtitle1 {
+	font-style: normal;
+	font-size: 12px;
+	line-height: 150%;
+	color: #101010;
+	font-weight: 400;
+}
+
+.services_footer {
+	display: inline-block;
+	margin-right: 130px;
+	margin-top: 85px;
+}
+.getintuch {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 85px;
+}
+
+.paymetod {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-top: 85px;
+}
+
+a {
+	text-decoration: 0;
+}
+.services_links {
+	font-style: normal;
+	font-size: 12px;
+	line-height: 160%;
+	text-transform: capitalize;
+	color: #000000;
+	font-weight: 400;
+	
+}
+.services_links:hover {
+	text-decoration-line: underline;
+}
+
+h3 {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #101010;
+	font-weight: 700;
+	margin-bottom: 33px;
+}
+
+.number {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: #101010;
+	font-style: normal;
+	margin-bottom: 21px;
+}
+
+.ftinfo {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: #101010;
+	font-style: normal;
+	margin-bottom: 11px;
+}
+
+.linkedin_img {
+	margin: 0 10px;
+}
+
+.copyright {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #101010;
+margin-top: 90px;
+}
+
+.fb_img {
+	margin-left: 2px;
+}
