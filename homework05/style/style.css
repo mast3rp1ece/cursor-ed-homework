@@ -1,0 +1,179 @@
+body {
+	background-color: rgb(46, 46, 46);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+	margin: 0 auto;
+	width: 100vh;
+	margin-top: 50px;
+}
+
+
+ 
+section {
+	margin-bottom: 30px;
+}
+
+th {
+	color: #fff;
+	padding: 12px 350px 12px 12px; 
+}
+
+td {
+	color: gray;
+	border-right: 0;
+	padding: 12px 0 12px 12px; 
+}
+
+table, td, th {
+	border: 2px solid gray;
+}
+
+table {
+	border-collapse: collapse;
+	border-radius: 5px;
+	border-style: hidden;
+	box-shadow: 0 0 0 2px #666;
+	background-color: rgb(54, 54, 54);
+}
+
+
+.name {
+	border-right: 0;
+}
+
+.name_2 {
+	border-right: 0;
+	padding: 12px 321px 12px 12px; 
+}
+
+.date {
+	border-left: 0;
+}
+
+.date_3 {
+	border-left: 0;
+	padding: 12px 350px 12px 12px;
+	position: relative;
+}
+
+.file_name {
+	border-right: 0;
+	color:#e9e2e2
+}
+
+.date_time {
+	border-left: 0;
+	position: relative;
+}
+
+.name::after {
+	content: "";
+	width: 7px;
+	height: 7px;
+	background-color: #fff;
+	display: inline-block;
+	margin-left: 10px;
+	transform: rotateY(0deg) rotate(45deg);
+	background: linear-gradient(135deg, rgb(54, 54, 54) 50%, white 50%);
+	position: relative;
+	top: -2px;
+	border-radius: 25%;
+}
+
+
+
+.name_2::after {
+	content: "";
+	width: 7px;
+	height: 7px;
+	background-color: #fff;
+	display: inline-block;
+	margin-left: 10px;
+	transform: rotateY(0deg) rotate(45deg);
+	background: linear-gradient(135deg, rgb(54, 54, 54) 50%, white 50%);
+	position: relative;
+	top: -2px;
+	left: -3.5px;
+	border-radius: 25%;
+}
+
+.date_time::after {
+	content: "...";
+	font-size: 25px;
+	color: #fff;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 30px;
+}
+
+.date_time_first::after {
+	content: "...";
+	font-size: 25px;
+	color: gray;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 30px;
+}
+
+.date_time_first {
+	border-left: 0;
+	position: relative;
+}
+
+.file_name_3 {
+	border-right: 0;
+	color:#e9e2e2
+}
+
+.file_name_3::before {
+	content:'';
+	background: url(/img/folder.png) 0 0/20px 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	top: 5px;
+}
+
+.search_input {
+	margin-left: 165px;
+	color: #fff;
+	border: 0;
+	height: 35px;
+	border-radius: 5px;
+	position: absolute;
+	right: 3px;
+	top: 3.4px;
+	padding-left: 40px;
+	background: url(/img/magnifying-glass.png) 10px 9px/15px 15px no-repeat;
+	background-color: gray;
+} 
+
+.search_input::placeholder {
+	color: #e6dede;
+}
+
+.search_input:focus {
+	outline: 0;
+}
+
+.search_input::before {
+	content:'';
+	background: url(/img/magnifying-glass.png) 0 0/20px 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+}
+
