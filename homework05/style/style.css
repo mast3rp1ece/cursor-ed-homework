@@ -137,7 +137,7 @@ table {
 
 .file_name_3::before {
 	content:'';
-	background: url(/img/folder.png) 0 0/20px 20px;
+	background: url(../img/folder.png) 0 0/20px 20px;
 	width: 20px;
 	height: 20px;
 	display: inline-block;
@@ -156,7 +156,7 @@ table {
 	right: 3px;
 	top: 3.4px;
 	padding-left: 40px;
-	background: url(/img/magnifying-glass.png) 10px 9px/15px 15px no-repeat;
+	background: url(../img/magnifying-glass.png) 10px 9px/15px 15px no-repeat;
 	background-color: gray;
 } 
 
