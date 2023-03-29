@@ -4,8 +4,6 @@ body {
 }
 
 main {
-	margin: 0 auto;
-	width: 100vh;
 	margin-top: 50px;
 }
 
@@ -31,6 +29,7 @@ table, td, th {
 }
 
 table {
+	margin: 0 auto;
 	border-collapse: collapse;
 	border-radius: 5px;
 	border-style: hidden;
@@ -103,8 +102,6 @@ table {
 	content: "...";
 	font-size: 25px;
 	color: #fff;
-	width: 5px;
-	height: 5px;
 	border-radius: 50%;
 	display: inline-block;
 	position: absolute;
@@ -116,8 +113,6 @@ table {
 	content: "...";
 	font-size: 25px;
 	color: gray;
-	width: 5px;
-	height: 5px;
 	border-radius: 50%;
 	display: inline-block;
 	position: absolute;
