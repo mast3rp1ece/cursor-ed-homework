@@ -18,6 +18,11 @@
 	/* font-family: 'Helvetica', sans-serif;
 		font-family: 'Helvetica Light', sans-serif; */
 
+html {
+	/* scroll-snap-type: x mandatory; */
+	scroll-behavior: smooth;
+}
+
 body {
 	background: #f8fbfd;
 }
