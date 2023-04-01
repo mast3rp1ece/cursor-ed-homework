@@ -641,10 +641,36 @@ footer {
 	color: #212353;
 }
 
-.social_icons {
-	margin-right: 12px;
+
+.icons_container {
+	width: 50px;
+	height: 50px;
+	background-color: rgba(128, 128, 128, 0.219);
+	display: flex;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	margin-right: 14px;
+	transition: all 0.2s;
 }
 
+.icons_container:hover {
+	background-color: rgba(128, 128, 128, 0.7);
+}
+
+.social_links {
+	overflow: hidden;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-right: 14px;
+}
+
+.icons_main {
+	display: flex;
+	flex-wrap: wrap;
+}
 .about_ft_inf {
 	padding-left: 50px;
 }
@@ -658,6 +684,8 @@ footer {
 	background-color: #FFFFFF;
 	border-radius: 50%;
 }
+
+
 
 .messanger_btn {
 	position: fixed;
