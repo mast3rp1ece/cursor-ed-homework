@@ -656,6 +656,7 @@ footer {
 .messanger {
 	box-shadow: 0 0 30px #ffffff41;
 	background-color: #FFFFFF;
+	border-radius: 50%;
 }
 
 .messanger_btn {
