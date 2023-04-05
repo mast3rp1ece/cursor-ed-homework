@@ -37,17 +37,8 @@ button {
 	cursor: pointer;
 }
 
-main{
-	margin: 0 8px;
-}
-.main-header1 {
-	margin: 0;
-	padding: 0 8px;
-	background-color: #fff;
-}
 
 .footer-main {
-	margin: 0;
 	padding: 0 8px;
 	background-color: #fff;
 }
@@ -57,12 +48,12 @@ main{
 	background: #E5E5EA;
 }
 .wrapper {
-	max-width: 1118px;
+	max-width: 1126px;
 	width: 100%;
 	margin: 0 auto;
 }
 .header-body {
-	margin: 0 auto;
+	margin: 0 8px;
 }
 .section-header {
 	display: flex;
@@ -79,8 +70,7 @@ line-height: 41px;
 color: #1B2437;
 }
 hr {
-	background: #F3F3F3;
-	border: 0;
+	opacity: 0.2;
 	height: 1px;
 }
 .hover-icons:hover {
@@ -127,14 +117,6 @@ nav {
 	bottom: -16px;
 }
 
-.social-header {
-}
-.header-icons-social {
-}
-.sign-hader {
-}
-.sign-icons {
-}
 
 .main-page-full {
 	background: url(../img/main_pic.png) 50%/auto 100% no-repeat;
@@ -160,11 +142,7 @@ nav {
 	max-width: 446px;
 	margin: 5px 0 34px 0;
 }
-.main-page {
-}
-.main-page-content {
-	
-}
+
 .show-more-button {
 	font-family: 'Mulish', sans-serif;
 	font-weight: 700;
@@ -175,6 +153,10 @@ nav {
 	border-radius: 15px;
 	padding: 23px 78px;
 	margin-bottom: 118px;
+}
+
+.collections {
+	margin: 0 8px;
 }
 
 .collections-body {
@@ -273,8 +255,9 @@ h3 {
 	background-color: #fff;
 }
 
-.grid5body {
-
+.grid5-articles:hover {
+	background: gray;
+	transition: all 0.3s;
 }
 
 .grid-5-elements {
@@ -347,6 +330,7 @@ h3 {
 }
 
 .you-may-likeSection {
+	margin: 0 8px;
 }
 
 .articles-2-body {
@@ -404,14 +388,11 @@ h3 {
 .you-may-likeSection {
 	margin-bottom: 70px;
 }
-.art2-secBottom {
-	
-}
+
 .art2-bottomBody {
 	margin: 16px 0 0 24px;
 }
-.bottomBody-titles {
-}
+
 .bottomBody-last {
 	display: flex;
 	justify-content: space-between;
@@ -444,6 +425,10 @@ h3 {
 	background: url(../img/art2-3.png) 100%/cover no-repeat;
 }
 
+.contacts-sec {
+	margin: 0 8px;
+}
+
 .contacts {
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
@@ -465,8 +450,7 @@ h3 {
 	width: 100%;
 	grid-column: span 3;
 }
-.contacts-icons {
-}
+
 .contacts-email {
 	grid-area: 2 / 1 / 3 / 2;
 	justify-self: center;
@@ -519,8 +503,7 @@ h3 {
 	max-width: 255px;
 	width: 100%;
 }
-.footer-links {
-}
+
 .ft-title {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
@@ -529,8 +512,6 @@ h3 {
 	color: #000000;
 	margin-bottom: 22px;
 	margin-top: 8px;
-}
-.ft-sec2 {
 }
 
 li {
