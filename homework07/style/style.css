@@ -448,6 +448,7 @@ h3 {
 }
 .map {
 	width: 100%;
+	height: 511px;
 	grid-column: span 3;
 }
 
@@ -549,4 +550,13 @@ li {
 .footer-icons {
 	display: flex;
 	align-items: center;
+}
+
+/* .header-icons-social:hover {
+	fill: #EDA3B5;
+} */
+
+a path:hover{
+	fill: #EDA3B5;
+	transition: all 0.1s;
 }
