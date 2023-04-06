@@ -153,6 +153,11 @@ nav {
 	border-radius: 15px;
 	padding: 23px 78px;
 	margin-bottom: 118px;
+	transition: all 0.3s;
+}
+.show-more-button:hover {
+	background: #2e3d5e;
+	box-shadow: 0 0 10px gray;
 }
 
 .collections {
@@ -412,8 +417,14 @@ h3 {
 	max-width: 153px;
 	width: 100%;
 	margin-right: 18px;
+	transition: all 0.3s;
 }
-
+.shopNow:hover {
+	background: #704e56;
+}
+.shopNow.otherCollorButt:hover {
+	background: #2e3d5e;
+}
 .otherCollorButt {
 	background: #1B2437;
 }
@@ -552,11 +563,25 @@ li {
 	align-items: center;
 }
 
-/* .header-icons-social:hover {
-	fill: #EDA3B5;
-} */
 
-a path:hover{
+
+a:hover path {
 	fill: #EDA3B5;
+	}
+
+a:hover svg {
+	transform: scale(1.2);
 	transition: all 0.1s;
 }
+a:hover .stroke-fill {
+	fill: none;
+	stroke: #EDA3B5;
+}
+
+.grid-5-elements:hover img {
+	transform: scale(1.1);
+	
+}
+ img {
+	transition: all 0.2s;
+ }
