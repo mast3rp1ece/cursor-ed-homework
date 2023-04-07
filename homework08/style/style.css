@@ -25,6 +25,7 @@ section {
 	display: flex;
 	justify-content: center;
 	margin-top: 150px;
+	overflow: hidden;
 }
 button {
 	cursor: pointer;
