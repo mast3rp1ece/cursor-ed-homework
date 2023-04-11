@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500&family=Roboto:wght@300;400;500&display=swap');
+/* 
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif; 
+*/
+@import url('https://fonts.cdnfonts.com/css/google-sans?styles=20573,20574,20580');
+/* 	
+	font-family: 'Product Sans', sans-serif;
+	font-family: 'Product Sans Black', sans-serif; 
+*/
+@import url(./reset.css);
+a {
+	text-decoration: none;
+	
+}
+.header {
+	background: #F4F6F9;
+	background: url(../img/headerpic.jpg) top right/contain no-repeat;
+	min-height: 665px;
+}
+.wrapper {
+	max-width: 1131px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header-container {
+	margin: 0 8px;
+	padding-top: 63px;
+}
+.sports {
+	font-family: 'Product Sans', sans-serif;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -0.02em;
+	color: #5282F0;
+}
+.sports::before {
+	content: '';
+	height: 25px;
+	width: 25px;
+	position: relative;
+	background: url(../img/football.svg);
+	display: inline-block;
+	margin-right: 2px;
+}
+.header-title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.03em;
+	color: #333333;
+	margin: 133px 0 30px 0;
+	max-width: 546px;
+}
+.header-subtitle {
+	font-family: 'Lato';
+	max-width: 453px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #4F4F4F;
+	margin-bottom: 50px;
+}
+.apple-link {
+	margin-right: 35px;
+}
+.main {
+	font-family: 'Lato', sans-serif;
+	min-height: 592px;
+	background: linear-gradient(-270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url(../img/main-back.jpg) top left/contain no-repeat;
+}
+.main-container {
+	margin: 0 8px;
+	display: flex;
+	justify-content: space-between;
+	height: 592px;
+	
+}
+.main-pictures {
+	margin-top: 109px;
+}
+
+.preview-card-1 {}
+.video-preview {
+	position: relative;
+	top: -31px;
+	left: 109px;
+	box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+}
+.preview-card {
+	background-color: #fff;
+	max-width: 360px;
+	width: 100%;
+	/* padding: 0 15px; */
+	box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+}
+.prewiew {
+	padding-top: 27px;
+	margin-left: 15px;
+}
+.time {
+	font-weight: 700;
+	font-size: 16.7833px;
+	line-height: 22px;
+	color: #4F4F4F;
+
+}
+.teams {
+	max-width: 76px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	margin: 13.5px 0;
+}
+.preview-title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+.input-preview {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #EEEEEE;
+	padding: 0 20px 0 15px;
+	min-height: 50px;
+	border-radius: 0px 0px 4px 4px;
+	position: relative;
+	z-index: 1;
+}
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 27px;
+	height: 13.5px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: -7px;
+	width: 21px;
+	height: 21px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+	box-shadow: 0px 2.09791px 2.09791px rgba(0, 0, 0, 0.25);
+}
+
+input:checked + label {
+	background: #4141f7ad;
+}
+
+input:checked + label:after {
+	left: calc(100% + 7px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 30px;
+}
+.toggle-span {
+	font-weight: 400;
+	font-size: 18.8812px;
+	line-height: 25px;
+	color: #4F4F4F;
+}
+.toggle-butt {
+	position: relative;
+	top: -7px;
+}
+.preview-card-1 {
+	display: flex;
+	justify-content: space-between;
+}
+.teams-pic {
+	max-height: 84px;
+	align-self: center;
+	margin-right: 13px;
+}
+.main-titles {
+	align-self: center;
+}
+.what-does {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	color: #00ADEE;
+}
+.main-title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 37px;
+	color: #333333;
+	margin: 27px 0;
+}
+
+.main-subtitles {
+	max-width: 407px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: #4F4F4F;
+}
+.main-subtitle-2 {
+	margin: 22px 0;
+}
+.learnMore {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	color: #00ADEE;
+}
