@@ -12,11 +12,12 @@
 @import url(./reset.css);
 a {
 	text-decoration: none;
-	
+}
+a.learnMore:hover {
+	text-decoration: underline;
 }
 .header {
-	background: #F4F6F9;
-	background: url(../img/headerpic.jpg) top right/contain no-repeat;
+	background: url(../img/1111.png) top right/contain no-repeat, #F4F6F9;
 	min-height: 665px;
 }
 .wrapper {
@@ -82,7 +83,6 @@ a {
 	margin-top: 109px;
 }
 
-.preview-card-1 {}
 .video-preview {
 	position: relative;
 	top: -31px;
@@ -228,3 +228,85 @@ label:active:after {
 	line-height: 21px;
 	color: #00ADEE;
 }
+.user-interface {
+	min-height: 716px;
+	background: #fff;
+	display: flex;
+	align-items: end;
+	overflow: hidden;
+}
+.user-interface-body {
+	display: flex;
+	align-items: center;
+	margin: 0 8px 60px 8px;
+	justify-content: space-between;
+}
+.user-interface-title {
+	font-family: 'Lato', sans-serif;
+	z-index: 2;
+}
+.get-started {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	color: #00ADEE;
+}
+.interface-title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 37px;
+	color: #333333;
+	margin: 27px 0;
+}
+.interface-subtitles {
+	max-width: 480px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: #4F4F4F;
+}
+.interface-subtite-2 {
+	margin: 22px 0 54px 0;
+}
+.user-interface-app {
+	display: flex;
+	align-self: flex-end;
+	position: relative;
+}
+.user-interface-app::after {
+	content: '';
+	width: 1440px;
+	height: 716px;
+	background: url(../img/user-interface.jpg) 100%/cover no-repeat;
+	display: inline-block;
+	position: absolute;
+	z-index: 0;
+	right: -230px;
+	top: -127px;
+}
+.user-interface-pic {
+	max-width: 345px;
+	z-index: 2;
+}
+.feautures-section {
+	font-family: 'Lato', sans-serif;
+	min-height: 735px;
+	background: url(../img/feautures-back.jpg) 100%/cover no-repeat;
+}
+.feautures-title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 37px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.feautures-body {
+}
+.feautures-article {
+}
+.feautures-subtitle {
+}
+.features-svg {
+
+}
+
