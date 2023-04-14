@@ -1,7 +1,7 @@
 
 body {
 	background: darkgray;
-	padding-top: 100px;
+	padding-top: 20px;
 }
 .swards {
 	background: url(../img/pexels-felix-mittermeier-957061.jpg);
@@ -98,12 +98,11 @@ body {
 }
 .newton {
 	width: 900px;
-	height: 700px;
+	height: 400px;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
 	align-items: center;
-	overflow: hidden;
 }
 .pendulum {
 	height: 80px;
