@@ -15,15 +15,55 @@ body {
 	padding-top: 100px;
 	box-shadow: 5px 5px 20px black;
 }
-.swards:hover .sword-1 {
-	transform: translateY(40px);
-	opacity: 0;
+
+@keyframes sw-1 {
+	0{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+	20%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+	50%{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(40px);
+		opacity: 0;
+	}
 }
-.swards:hover .sword-2 {
-	transform: translateY(36px) rotate(45deg);
+
+@keyframes sw-2 {
+	0{
+		transform: translateY(0) rotate(0);
+	}
+	20%{
+		transform: translateY(0) rotate(0);
+	}
+	50%{
+		transform: translateY(36px) rotate(45deg);
+	}
+	100%{
+		transform: translateY(36px) rotate(45deg);
+	}
 }
-.swards:hover .sword-3 {
-	transform: translateY(-36px) rotate(-45deg);
+
+
+@keyframes sw-3 {
+	0{
+		transform: translateY(0) rotate(0);
+	}
+	20%{
+		transform: translateY(0) rotate(0);
+	}
+	50%{
+		transform: translateY(-36px) rotate(-45deg);
+	}
+	100%{
+		transform: translateY(-36px) rotate(-45deg);
+	}
 }
 .sword {
 	height: 25px;
@@ -32,18 +72,20 @@ body {
 	border-radius: 20px;
 	margin-bottom: 40px;
 	border: 2px solid rgba(255, 255, 255, 0.452);
-	transition: all 0.5s;
 }
 .sword-1 {
 	box-shadow: 0 0 20px 10px rgb(86, 175, 141);
+	animation: sw-1 2s ease infinite alternate;
 }
 .sword-2 {
 	box-shadow: 0 0 20px 10px rgb(88, 9, 153);
 	display: flex;
 	justify-content: end;
+	animation: sw-2 2s ease infinite alternate;
 }
 .sword-3 {
 	box-shadow: 0 0 20px 10px rgb(224, 58, 58);
+	animation: sw-3 2s ease infinite alternate;
 }
 .rectangle {
 	height: 100%;
