@@ -1,0 +1,135 @@
+
+body {
+	background: darkgray;
+	padding-top: 100px;
+}
+.swards {
+	background: url(../img/pexels-felix-mittermeier-957061.jpg);
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+	box-shadow: 5px 5px 20px black;
+}
+.swards:hover .sword-1 {
+	transform: translateY(40px);
+	opacity: 0;
+}
+.swards:hover .sword-2 {
+	transform: translateY(36px) rotate(45deg);
+}
+.swards:hover .sword-3 {
+	transform: translateY(-36px) rotate(-45deg);
+}
+.sword {
+	height: 25px;
+	width: 400px;
+	background: darkgray;
+	border-radius: 20px;
+	margin-bottom: 40px;
+	border: 2px solid rgba(255, 255, 255, 0.452);
+	transition: all 0.5s;
+}
+.sword-1 {
+	box-shadow: 0 0 20px 10px rgb(86, 175, 141);
+}
+.sword-2 {
+	box-shadow: 0 0 20px 10px rgb(88, 9, 153);
+	display: flex;
+	justify-content: end;
+}
+.sword-3 {
+	box-shadow: 0 0 20px 10px rgb(224, 58, 58);
+}
+.rectangle {
+	height: 100%;
+	width: 60px;
+	background: #000;
+	margin-left: 20px;
+}
+.sword-2 .rectangle {
+	margin: 0 20px 0 0;
+}
+.newton {
+	width: 900px;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	align-items: center;
+	overflow: hidden;
+}
+.pendulum {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background: rgb(83, 233, 170);
+	transition: all 0.5s;
+}
+.circle-1 {
+	animation: newton1 1s ease-in infinite alternate;
+	position: relative;
+	background: blue;
+}
+.circle-7 {
+	animation: newton7 1s ease-in infinite alternate-reverse;
+	position: relative;
+	background: rgb(13, 126, 116);
+}
+
+@keyframes newton1 {
+	0%{
+		transform: translate(-100px, -50px) rotate(10deg);
+	}
+	50%{
+		transform: translate(0px, 0px);
+	}
+}
+@keyframes newton7 {
+	0%{
+		transform: translate(100px, -50px) rotate(-10deg);
+	}
+	50%{
+		transform: translate(0px, 0px);
+	}
+}
+.circle-1::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);
+}
+.circle-7::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);
+}
+.circle-6 {
+	background: rgb(20, 185, 172);
+}
+.circle-5 {
+	background: rgb(24, 224, 208);
+}
+.circle-2 {
+	background: linear-gradient(to right, #1e5799 0%,#2d40ef 2%,#859af7 55%,#85f7c7 100%);;
+}
+.circle-3 {
+	background: linear-gradient(to right, #1e9599 0%,#2defbe 2%,#85f7de 55%,#85f7c7 100%);;
+}
