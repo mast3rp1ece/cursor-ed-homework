@@ -111,6 +111,7 @@ body {
 	border-radius: 50%;
 	background: rgb(83, 233, 170);
 	transition: all 0.5s;
+	position: relative;
 }
 .circle-1 {
 	animation: newton1 1s ease-in infinite alternate;
@@ -165,6 +166,61 @@ body {
 	filter: blur(8px);
 	animation: crcl-7 1s ease-in  infinite alternate-reverse;
 }
+.circle-2::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);}
+.circle-3::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);}
+.circle-4::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);}
+.circle-5::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);}
+.circle-6::after {
+	content: '';
+	width: 80px;
+	height: 40px;
+	background: #000;
+	display: block;
+	opacity: .5;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	filter: blur(8px);}
 .circle-6 {
 	background: rgb(20, 185, 172);
 }
