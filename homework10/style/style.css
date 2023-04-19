@@ -125,7 +125,7 @@ body {
 
 @keyframes newton1 {
 	0%{
-		transform: translate(-100px, -50px) ;
+		transform: translate(-100px, -50px) rotate(10deg);
 	}
 	50%{
 		transform: translate(0px, 0px);
@@ -133,7 +133,7 @@ body {
 }
 @keyframes newton7 {
 	0%{
-		transform: translate(100px, -50px) ;
+		transform: translate(100px, -50px) rotate(-10deg);
 	}
 	50%{
 		transform: translate(0px, 0px);
@@ -236,23 +236,19 @@ body {
 	0%{
 		filter: blur(16px);
 		opacity: .4;
-		transform: translateY(50px);
 	}
 	50%{
 		filter: blur(8px);
 		opacity: .5;
-		transform: translateY(0);
 	}
 }
 @keyframes crcl-7 {
 	0%{
 		filter: blur(16px);
 		opacity: .4;
-		transform: translateY(50px);
 	}
 	50%{
 		filter: blur(8px);
 		opacity: .5;
-		transform: translateY(0);
 	}
 }
