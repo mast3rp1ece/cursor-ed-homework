@@ -13,10 +13,13 @@
 	text-align: center;
 	font-size: 14px;
 }
-.search-input::before {
+.search-input:before {
 	content: '';
-	background: url(./img/search.svg) 0 0/9px 9px no-repeat;
-	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background: url(./img/search.svg);
+	display: block;
+	margin-right: 5px;
 }
 .follow-btn {
 	max-width: 97px;
@@ -80,6 +83,25 @@
 	height: 11px;
 	display: inline-block;
 	margin-right: 5px;
+}
+.messages-icon {
+	position: relative;
+}
+.messages-icon::after {
+	content: '';
+	background: url(./img/messahe-count.svg);
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	left: 11px;
+	top: -3px;
+	position: absolute;
+}
+.sub-link {
+	text-decoration: none;
+}
+.a-posts {
+	
 }
 @media (max-width:768px){
 	.main-content {
