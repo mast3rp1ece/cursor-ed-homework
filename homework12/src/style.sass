@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap')
+//font-family: 'Roboto', sans-serif
+@import url(reset.css)
+%subtitle 
+	color: #6F7CB2
+	font-size: 16px
+	line-height: 26px
+	max-width: 445px
+%h2_style
+	font-weight: 500
+	font-size: 36px
+	line-height: 48px
+	color: #091133
+	margin-bottom: 16px
+body
+	font-family: 'Roboto', sans-serif
+	background: url(../img/main.png) 100% 0 no-repeat
+button
+	transition: all .2s
+a
+	&:hover
+		text-decoration: underline
+		svg 
+			transform: scale(1.2)
+		.svg_footer 
+			fill: #111B47
+svg 
+	transition: all 0.1s
+.wrapper
+	max-width: 1126px
+	width: 100%
+	margin: 0 auto
+.nav_body
+	padding-top: 12px 
+	margin: 0 8px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	button
+		border-radius: 2px
+		background: #111B47
+		color: #FFFFFF
+		font-size: 12px
+		line-height: 18px
+		padding: 4px 0
+		max-width: 160px
+		width: 100%
+		&:hover
+			color: #091133
+			background: transparent
+			box-shadow: 0 0 0 2px #091133 inset
+ul
+	display: flex
+	justify-content: space-between
+	li
+		display: inline
+		a 
+			color: #505F98
+			font-size: 14px
+			line-height: 24px 
+.logo_title
+	font-style: normal
+	font-weight: 900
+	font-size: 26px
+	line-height: 38px
+	color: #37447E
+	margin-left: -100px
+	&:hover 
+		text-decoration: 0
+nav
+	max-width: 245px
+	width: 100%
+.main_body
+	margin: 0 8px
+	h1
+		color: #091133
+		font-weight: 500
+		font-size: 50px
+		max-width: 539px
+		line-height: 66px
+		margin: 253px 0 20px 0
+	.main_subtitle
+		color: #505F98 
+		max-width: 539px
+		font-size: 18px
+		line-height: 30px
+	.m_sub2
+		margin: 20px 0 69px 0
+	button 
+		max-width: 189px
+		width: 100%
+		color: #FFFFFF
+		font-size: 16px
+		line-height: 26px
+		font-weight: 500
+		background: #111B47
+		border-radius: 2px
+		padding: 5px 0
+		&:hover
+			color: #091133
+			background: transparent
+			box-shadow: 0 0 0 2px #091133 inset
+	.learn_more
+		margin: 0 0 391px 30px
+.section_1
+	padding: 108px 0
+	h2 
+		@extend %h2_style
+	.sec_1_1_subtitle
+		color: #505F98 
+		max-width: 539px
+		font-size: 16px
+		line-height: 26px
+	.s1_sub2 
+		margin: 16px 0 80px 0
+.sec_1_body
+	display: flex
+	margin: 0 8px
+	justify-content: space-between
+.sec_1_second 
+	display: flex
+	justify-content: space-between
+	h3 
+		font-weight: 500
+		font-size: 16px
+		line-height: 26px
+		color: #091133
+		margin: 14px 0 6px 0
+	.sec1_subtitle 
+		font-weight: 400
+		font-size: 12px
+		line-height: 18px
+		color: #5D6970
+		max-width: 255px
+.sec_1_text_block
+	align-self: center
+.sec_2_body
+	margin: 0 8px
+.section_2
+	padding: 122px 0 163px 0
+	article
+		.article_img_body
+			display: flex
+			margin-right: 8px
+		display: flex
+		justify-content: space-between
+	.sec_2_title 
+		@extend %h2_style
+	.sec_2_subtitle 
+		@extend %subtitle
+	.sec2_sub2 
+		margin-top: 16px
+	.sec_2_text
+		align-self: center
+.sec_2_2_margin 
+	margin-right: 8px
+.middle_art 
+	margin: 225px 0
+.purchace 
+	margin-top: 40px
+	background: #111B47
+	border-radius: 2px
+	padding: 4px 0
+	max-width: 150px
+	width: 100%
+	font-weight: 500
+	font-size: 14px
+	line-height: 24px
+	color: #FFFFFF
+	&:hover
+			color: #091133
+			background: transparent
+			box-shadow: 0 0 0 2px #091133 inset
+.sec_3_body 
+	margin: 0 8px
+	.price 
+		font-style: normal
+		font-weight: 500
+		font-size: 50px
+		line-height: 66px
+		letter-spacing: 1px
+		color: #222F65
+	.price_subtitle 
+		font-size: 16px
+		line-height: 26px
+		color: #37447E
+	.one_price 
+		margin: 60px 0 9px 0
+		color: #5D6970
+		font-size: 14px
+		line-height: 24px
+	h2 
+		@extend %h2_style
+	.sub_cont 
+		max-width: 600px
+		margin: 0 auto
+	.purchace_sub 
+		margin: 16px 0 35px 0
+		@extend %subtitle
+		max-width: 600px
+	.price_butt 
+		max-width: 189px
+		width: 100%
+		padding: 4px 0
+		font-size: 14px
+		line-height: 24px
+		font-weight: 500
+		color: #FFFFFF
+		background: #111B47
+		border-radius: 2px
+		&:hover
+			color: #091133
+			background: transparent
+			box-shadow: 0 0 0 2px #091133 inset
+.sec_price
+	padding: 237px 0 172px 0 
+	text-align: center
+	background: url(../img/purch_back.png) 0 65px/cover no-repeat
+footer 
+	padding: 60px 0 30px 0
+	background: #E7ECFF
+.footer_sec1,.footer_sec2
+	margin: 0 8px
+	display: flex
+	align-items: center
+	justify-content: space-between
+.copyright 
+	color: #939EA4
+	line-height: 24px
+	font-size: 14px
+	font-weight: 500
+.footer_butt 
+	font-size: 12px
+	line-height: 18px
+	font-weight: 500
+	max-width: 109px
+	width: 100%
+	padding: 4px 0
+	color: #FFFFFF
+	background: #111B47
+	border-radius: 2px
+	&:hover
+			color: #091133
+			background: transparent
+			box-shadow: 0 0 0 2px #091133 inset
+hr 
+	height: 1px
+	border: 0
+	background: #CDD1D4
+	margin: 40px 8px 0 8px
+.footer_links 
+	max-width: 245px
+	width: 100%
+	a 
+		color: #929ECC
+.footer_sec2
+	margin-top: 20px
+.footer_icons
+	max-width: 200px
+	width: 100%
+	display: flex
+	justify-content: space-between
+	align-items: center
+.ft_logo 
+	margin-left: 0
+@media screen and ( max-width: 1260px )
+	body 
+		background: url(../img/main.png) 250px 0 no-repeat
+@media screen and (max-width: 950px)
+	.logo_title
+		margin-left: 0
+@media screen and (max-width:768px)
+	.nav_body
+		flex-direction: column
+	.logo_title
+		order: 1
+		margin-bottom: 20px
+	nav
+		order: 2
+		margin: 5px 0 10px 0
+	.nav_body
+		button
+			order: 3
+	.main_body
+		text-align: center
+		.main_text
+			display: flex
+			flex-direction: column
+			align-items: center
+		h1
+			margin: 100px 0 20px 0
+		.learn_more 
+			margin: 0 0 100px 30px
+	.ft_logo
+		order: 0		
+@media screen and ( max-width: 560px )
+	.sec_3_body
+		.price
+			font-size: 44px
+			line-height: 55px
+	.section_1
+		.sec_1_1_subtitle
+			font-size: 14px
+			line-height: 22px
+	%h2_style
+		font-size: 28px
+		line-height: 36px
+	%subtitle 
+		font-size: 14px
+		line-height: 22px
+	.main_body 
+		h1
+			font-size: 42px
+			line-height: 50px
+		.main_subtitle 
+			font-size: 16px
+			line-height: 24px
+	.footer_sec1
+		flex-direction: column
+	.ft_logo
+		order: 1
+		margin-bottom: 0
+	.footer_butt
+		order: 2
+		margin: 10px 0
+	.copyright
+		order: 3
+	footer
+		padding: 20px 0 30px 0
+	hr
+		margin: 20px 8px 0 8px
+@media screen and ( max-width: 445px )
+	.sec_price
+		padding:237px 0 100px 0
+	.main_body 
+		button
+			max-width: 140px
+@media screen and ( max-width: 1095px )
+	.sec_1_img_block
+		align-self: center
+@media screen and ( max-width: 940px )
+	.section_2
+		padding: 150px 0 10px 0
+	article
+		text-align: center
+		flex-direction: column-reverse
+		align-items: center
+		.article_img_body
+			margin-top: 50px
+	.middle_art
+		margin: 100px 0
+	.section_1
+		padding: 0
+	.sec_1_body
+		flex-direction: column
+		text-align: center
+@media screen and ( max-width: 510px )
+	.footer_sec2
+		flex-direction: column
+	.footer_links
+		margin-bottom: 10px
+@media screen and ( max-width: 343px )
+	.main_body
+		.learn_more
+			margin: 0 0 100px 12px
+		button
+			max-width: 120px
+			font-size: 14px
+			line-height: 22px
+	

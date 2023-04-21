@@ -21,6 +21,12 @@
 	display: inline-block;
 	position: relative;
 }
+.posts-link {
+	width: fit-content;
+}
+.posts-img {
+	object-fit: cover;
+}
 .search-input:before {
 	content: '';
 	width: 18px;
