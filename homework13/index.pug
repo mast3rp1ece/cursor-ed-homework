@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="./style/style.css")
+		title HW #13
+	body 
+		.buttons-container
+			h2 Buttons Big 
+			.big-buttons 
+				.big-buttons__buttons.buttonsBig
+					include big-button.pug
+					include big-btn-after.pug
+					include big-btn-before.pug
+				.big-buttons__otherBig.othersBig 
+					include big-otherBig.pug
+			h2 Buttons Small
+			.small-buttons 
+				.small-buttons__buttons.buttonsSmall
+					include small-buttons.pug
+					include small-after.pug
+					include small-before.pug
+				.small-buttons__others.othersSmall
+					include small-others.pug
+				.small-buttons__tags.tagsSmall
+					include tags.pug  

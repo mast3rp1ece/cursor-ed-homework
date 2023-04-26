@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap')
+// font-family: 'Inter', sans-serif
+@import url(reset.css)
+body
+	font-family: 'Inter', sans-serif
+	background: #e5e5e5
+	padding: 50px
+.buttons-container
+	background: #fff
+	padding: 44px 60px 80px 60px
+	max-width: 1302px
+	margin: 0 auto
+	h2 
+		margin-bottom: 30px
+		font-weight: 600
+		font-size: 25px
+		line-height: 30px
+.big-buttons
+	display: grid
+	grid-template-columns: 0.6fr 0.4fr
+	column-gap: 20px
+	margin-bottom: 49px
+.small-buttons
+	display: grid
+	grid-template-columns: 0.6fr 0.4fr
+	column-gap: 20px
+.buttonsBig
+	margin-bottom: 24px
+@import big-btn/big-buttons.sass
+@import big-btn/big-buttons--after.sass
+@import big-btn/big-buttons--before.sass
+@import big-btn/big-other1.sass
+@import small-btn/small-buttons.sass
+@import small-btn/small-after.sass
+@import small-btn/small-before.sass
+@import small-btn/small-others.sass
+@import small-btn/tags.sass
+@media screen and ( max-width: 1305px )
+	.big-buttons
+		grid-template-columns: 1fr
+	.small-buttons
+		grid-template-columns: 1fr
