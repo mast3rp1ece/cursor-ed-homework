@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair+Display&family=Poppins:wght@300;400;600;700&display=swap')
+// font-family: 'Major Mono Display', monospace
+// font-family: 'Playfair Display', serif
+// font-family: 'Poppins', sans-serif
+@import url(reset.css)
+// background: linear-gradient(0deg, #0A1E27 85.81%, rgba(10, 30, 39, 0.4) 94.68%, rgba(10, 30, 39, 0) 100.15%)
+%yellowBefore
+	font-family: 'Poppins', sans-serif
+	font-weight: 700
+	font-size: 14px
+	line-height: 24px
+	letter-spacing: 0.24em	
+	color: #D3BA74
+	position: relative
+	&::before
+		content:''
+		width: 51px
+		height: 2px
+		background: #D3BA74
+		display: inline-block
+		margin: 0px 6px 5px 0
+		position: relative
+		top: -50%
+%h2Titles
+	font-family: 'Playfair Display', serif
+	font-size: 70px
+	line-height: 70px
+	color: #fff
+	margin: 12px 0 20px 0
+%descriptions
+	font-family: 'Poppins', sans-serif
+	font-weight: 300
+	font-size: 16px
+	line-height: 24px
+	color: rgba(255, 255, 255, 0.8)
+	max-width: 528px
+	width: 100%
+html
+	scroll-behavior: smooth
+body
+	background: #0A1E27 
+.main__body
+	margin: 0 8px
+main
+	.main__title
+		font-family: 'Playfair Display', serif
+		font-size: 100px
+		line-height: 100px
+		color: #fff
+		margin: 188px 0 8px 0
+	.main__subtitle
+		color: #D3BA74
+		font-size: 20px
+		line-height: 22px
+		font-family: 'Poppins', sans-serif
+		font-weight: 700
+		letter-spacing: 0.24em
+	.main__description
+		max-width: 513px
+		color: rgba(255, 255, 255, 0.8)
+		font-family: 'Poppins', sans-serif
+		font-weight: 300
+		font-size: 16px
+		line-height: 24px
+		margin: 40px 0
+	height: 100vh
+	background: linear-gradient(0deg, rgba(10, 30, 39, 1) 10%, rgba(10, 30, 39, 0)), url(../img/mainBackground2.png) 80% 80%/cover no-repeat
+	overflow: hidden
+.readmore
+	&:hover
+		background: #fff
+		color: #0A1E27
+		font-weight: 600
+	font-family: 'Poppins', sans-serif
+	font-style: 12px
+	line-height: 18px
+	text-transform: uppercase
+	max-width: 100px
+	width: 100%
+	padding: 10px 0
+	background: transparent
+	border: 1px solid #FFFFFF
+	border-radius: 4px
+	color: #fff
+	transition: all 0.2s
+.wrapper
+	max-width: 1272px
+	width: 100%
+	margin: 0 auto
+.logo
+	font-family: 'Major Mono Display', monospace
+	font-size: 32px
+	line-height: 34px
+	color: #fff
+	margin-top: 30px
+	display: inline-block
+.spanSection 
+	display: flex
+	justify-content: flex-end
+	align-items: center
+	gap: 35px
+	position: relative
+	grid-column: span 4
+	margin-bottom: 61px
+	.exploreSection__absotule
+		font-family: 'Poppins', sans-serif
+		font-weight: 600
+		font-size: 180px
+		line-height: 150%
+		color: rgba(255, 255, 255, 0.13)
+		position: absolute
+		left: 0
+		top: -10px
+.title
+	@extend %h2Titles
+.subtitle
+	@extend %yellowBefore
+.description
+	@extend %descriptions
+.spanSection__image
+	img
+		object-fit: cover
+		width: 100%
+.spanSection__description
+	font-family: 'Poppins', sans-serif
+	font-weight: 300
+	font-size: 16px
+	line-height: 24px
+	color: rgba(255, 255, 255, 0.8)
+	max-width: 528px
+	width: 100%
+.exploreSection
+	overflow: hidden
+.exploreSection__body
+	margin: 0 8px
+.exploreSection__smallImages, .openTheWindow__smallImages
+	img
+		width: 100%
+	width: fit-content
+	height: auto
+.exploreSection__imagesBody, .openTheWindow__imagesBody
+	display: flex
+	justify-content: space-between
+	gap: 10px
+.dontMissSection	
+	margin: 150px 0
+.dontMissSection__body
+	margin: 0 8px 
+	position: relative
+.dontMissSection__image
+	width: fit-content
+	img
+		opacity: 0.5
+		width: 100%
+.dontMissSection__body
+	display: flex
+	align-items: center
+	justify-content: space-between
+	gap: 20px
+	max-width: 1235px
+	.dontMissSection__text
+		margin-top: -30px
+.dontMissSection__description
+	max-width: 511px
+.dontMissSection__absolute
+	font-family: 'Poppins', sans-serif
+	font-weight: 600
+	font-size: 180px
+	line-height: 150%
+	color: rgba(255, 255, 255, 0.13)
+	position: absolute
+	top: 0
+	left: 532px
+.openTheWindow__body
+	margin: 0 8px
+.openTheWindow__absotule
+	font-family: 'Poppins', sans-serif
+	font-weight: 600
+	font-size: 180px
+	line-height: 150%
+	color: rgba(255, 255, 255, 0.13)
+	position: absolute
+	left: 0
+	top: 0
+.openTheWindow__description
+	max-width: 501px
+.openTheWindow__span
+	margin-top: -30px
+.openTheWindow__text
+	gap: 0
+.openTheWindow
+	margin-bottom: 150px
+.count
+	font-family: 'Poppins', sans-serif
+	font-weight: 600
+	font-size: 100px
+	line-height: 110%
+	color: rgba(255, 255, 255, 0.13)
+.statistic__subtitle
+	@extend %yellowBefore
+	&::before
+		display: inline
+.statistic__container
+	text-align: center
+.statictic__body
+	max-width: 1007px
+	display: flex
+	margin: 0 auto
+	justify-content: space-between
+.exploreMore__body
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding: 80px 0
+	position: relative
+	margin: 0 8px
+	&::before
+		content: ''
+		position: absolute
+		width: 100%
+		height: 1px
+		background: rgba(255, 255, 255, 0.2)
+		top: 0
+	&::after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 1px
+		background: rgba(255, 255, 255, 0.2)
+		bottom: 0
+.exploreMore__description
+	max-width: 512px
+	margin-bottom: 64px
+.exploreMore__image
+	width: fit-content
+	img
+		width: 100%
+.exploreMore
+	margin-top: 130px
+.footer__logo
+	margin-top: 0
+.footer
+	padding: 40px 0 
+	.footer__body
+		margin: 0 8px
+		display: flex
+		align-items: center
+		justify-content: space-between
+.social
+	max-width: 228px
+	width: 100%
+	svg
+		transition: all 0.2s
+	ul
+		display: flex
+		justify-content: space-between
+		align-items: center
+		li
+			display: inline
+.social__icon
+	&:hover
+		svg
+			transform: scale(1.2)
+			path	
+				fill-opacity: 1
+@media screen and ( max-width: 515px )
+	main
+		text-align: center
+		.main__title
+			font-size: 60px
+			line-height: 70px
+			margin-top: 120px
+		.main__subtitle
+			font-size: 18px
+			line-height: 20px
+		.main__description
+			font-size: 14px
+			line-height: 20px
+	.logo
+		width: 100%
+		text-align: center
+@media screen and ( max-width: 1135px )
+	// .spanSection
+	// 	position: unset
+	// 	.exploreSection__absotule
+	// 		top: -120px
+	// .spanSection__text
+	// 	position: relative
+@media screen and ( max-width: 950px )
+	.spanSection
+		flex-direction: column
+	.title
+		font-size: 50px
+		line-height: 50px
+	.subtitle
+		font-size: 12px
+		line-height: 20px
+	.spanSection__description
+		font-size: 14px
+		line-height: 20px
