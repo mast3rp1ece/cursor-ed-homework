@@ -39,23 +39,23 @@ html
 	scroll-behavior: smooth
 body
 	background: #0A1E27 
-.main__body
+.adventure__body
 	margin: 0 8px
-main
-	.main__title
+.adventure
+	.adventure__title
 		font-family: 'Playfair Display', serif
 		font-size: 100px
 		line-height: 100px
 		color: #fff
 		margin: 188px 0 8px 0
-	.main__subtitle
+	.adventure__subtitle
 		color: #D3BA74
 		font-size: 20px
 		line-height: 22px
 		font-family: 'Poppins', sans-serif
 		font-weight: 700
 		letter-spacing: 0.24em
-	.main__description
+	.adventure__description
 		max-width: 513px
 		color: rgba(255, 255, 255, 0.8)
 		font-family: 'Poppins', sans-serif
@@ -71,6 +71,10 @@ main
 		background: #fff
 		color: #0A1E27
 		font-weight: 600
+	&:active
+		color: #fff
+		background: transparent
+		font-weight: 400
 	font-family: 'Poppins', sans-serif
 	font-style: 12px
 	line-height: 18px
@@ -187,7 +191,7 @@ main
 .openTheWindow__span
 	margin-top: -30px
 .openTheWindow__text
-	gap: 0
+	gap: 20px
 .openTheWindow
 	margin-bottom: 150px
 .count
@@ -207,6 +211,8 @@ main
 	display: flex
 	margin: 0 auto
 	justify-content: space-between
+	gap: 20px
+	padding: 0 8px
 .exploreMore__body
 	display: flex
 	justify-content: space-between
@@ -214,6 +220,7 @@ main
 	padding: 80px 0
 	position: relative
 	margin: 0 8px
+	gap: 30px
 	&::before
 		content: ''
 		position: absolute
@@ -263,22 +270,6 @@ main
 			transform: scale(1.2)
 			path	
 				fill-opacity: 1
-@media screen and ( max-width: 515px )
-	main
-		text-align: center
-		.main__title
-			font-size: 60px
-			line-height: 70px
-			margin-top: 120px
-		.main__subtitle
-			font-size: 18px
-			line-height: 20px
-		.main__description
-			font-size: 14px
-			line-height: 20px
-	.logo
-		width: 100%
-		text-align: center
 @media screen and ( max-width: 1135px )
 	// .spanSection
 	// 	position: unset
@@ -286,7 +277,29 @@ main
 	// 		top: -120px
 	// .spanSection__text
 	// 	position: relative
+@media screen and ( max-width: 1130px )
+	.spanSection .exploreSection__absotule
+		line-height: 80%
+		top: 0
+		left: 30%
+@media screen and ( max-width: 1116px )
+	.openTheWindow__absotule
+		line-height: 80%	
 @media screen and ( max-width: 950px )
+	.dontMissSection
+		margin: 250px 0
+	.statictic__body
+		flex-wrap: wrap
+		justify-content: center
+		gap: 50px
+	.openTheWindow__absotule
+		top: -87px
+	.openTheWindow__text
+		gap: 30px
+	.spanSection .exploreSection__absotule
+		line-height: 80%
+		top: 0
+		left: 0
 	.spanSection
 		flex-direction: column
 	.title
@@ -298,3 +311,54 @@ main
 	.spanSection__description
 		font-size: 14px
 		line-height: 20px
+	.exploreSection__imagesBody, .openTheWindow__imagesBody
+		flex-wrap: wrap
+		justify-content: center
+		gap: 25px
+	.dontMissSection__body
+		flex-direction: column-reverse
+		gap: 30px
+	.dontMissSection__absolute
+		left: 0
+		top: -90px
+		line-height: 80%
+@media screen and ( max-width: 850px )
+	.exploreMore__body
+		flex-direction: column-reverse
+	.spanSection
+		text-align: center
+@media screen and ( max-width: 600px )
+	footer
+		padding: 30px 0
+	.footer__body
+		flex-direction: column
+		gap: 30px
+@media screen and ( max-width: 515px )
+	.exploreMore__text
+		text-align: center
+	.exploreMore__description
+		font-size: 14px
+		line-height: 20px
+	.adventure
+		text-align: center
+		.adventure__title
+			font-size: 60px
+			line-height: 70px
+			margin-top: 120px
+		.adventure__subtitle
+			font-size: 18px
+			line-height: 20px
+		.adventure__description
+			font-size: 14px
+			line-height: 20px
+	.logo
+		width: 100%
+		text-align: center
+	.spanSection
+		padding-top: 60px
+	.openTheWindow__text
+		padding-top: 0
+	.title
+		font-size: 40px
+	.dontMissSection__body .dontMissSection__text
+		text-align: center

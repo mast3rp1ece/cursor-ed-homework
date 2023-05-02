@@ -5,93 +5,95 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		link(rel="stylesheet", href="./style/style.css")
+		link(rel="shortcut icon", href="./img/favicon.ico", type="image/x-icon")
 		title Final Homework
 	body 
-		main#mainPage 
-			.wrapper
-				.main__body
-					a.main__logo.logo(href="#") Adventure
-					h1.main__title Adventure
-					p.main__subtitle life is great
-					p.main__description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-					button.main__button.readmore read more
-		section.exploreSection 
-			.wrapper 
-				.exploreSection__body 
-					.exploreSection__text.spanSection 
-						.spanSection__text 
-							span.exploreSection__absotule 01
-							p.spanSection__subtitle.subtitle GET STARTED
-							h2.spanSection__title.title 
-								| Explore 
-								br
-								| the World with us
-							p.spanSection__description.description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						.spanSection__image
-							img(src="./img/01BigImg.jpg", alt="Rocks in the sea")
-					.exploreSection__imagesBody
-						.exploreSection__smallImages
-							img(src="./img/01small1.jpg", alt="Sea bich")
-						.exploreSection__smallImages
-							img(src="./img/01small2.jpg", alt="Mountains")
-						.exploreSection__smallImages
-							img(src="./img/01small3.jpg", alt="Man and nature")
-						.exploreSection__smallImages
-							img(src="./img/01small4.jpg", alt="Rocks in the sea")
-		section.dontMissSection 
-			.wrapper 
-				.dontMissSection__body 
-					span.dontMissSection__absolute 02
-					.dontMissSection__image
-						img(src="./img/02.jpg", alt="Sea bich")
-					.dontMissSection__text
-						p.dontMissSection__subtitle.subtitle HIKING ESSENTIALS
-						h2.dontMissSection__title.title Don`t miss!
-						p.dontMissSection__description.description The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.
-		section.openTheWindow
-			.wrapper 
-				.openTheWindow__body 
-					.openTheWindow__text.spanSection 
-						span.openTheWindow__absotule 03
-						.spanSection__text.openTheWindow__span 
-							p.spanSection__subtitle.subtitle WHERE YOU GO IS THE KEY
-							h2.spanSection__title.title Open the wihdow
-							p.spanSection__description.description.openTheWindow__description To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..
-						.spanSection__image
-							img(src="./img/03BigImg.jpg", alt="Rocks in the sea")
-					.openTheWindow__imagesBody
-						.openTheWindow__smallImages
-							img(src="./img/03small1.jpg", alt="Grass in the bich")
-						.openTheWindow__smallImages
-							img(src="./img/03small2.jpg", alt="Road in mountains")
-						.openTheWindow__smallImages
-							img(src="./img/03small3.jpg", alt="Mountains")
-						.openTheWindow__smallImages
-							img(src="./img/03small4.jpg", alt="Rocks in the bich")
-		section.statistic
-			.wrapper 
-				.statictic__body 
-					.visited.statistic__container 
-						p.count 44
-						p.statistic__subtitle Visited countries
-					.travel.statistic__container 
-						p.count 120
-						p.statistic__subtitle Travel tours
-					.clients.statistic__container 
-						p.count 1020
-						p.statistic__subtitle Happy clients
-					.tracking.statistic__container
-						p.count 21
-						p.statistic__subtitle Tracking tours
-		section.exploreMore 
-			.wrapper 
-				.exploreMore__body 
-					.exploreMore__text 
-						h2.exploreMore__title.title Explore more
-						p.exploreMore__description.description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						button.exploreMore__button.readmore read more
-					.exploreMore__image
-						img(src="./img/exploreMoreImg.jpg", alt="Rocks and star sky")
+		main
+			section.adventure#mainPage 
+				.wrapper
+					.adventure__body
+						a.adventure__logo.logo(href="#") Adventure
+						h1.adventure__title Adventure
+						p.adventure__subtitle life is great
+						p.adventure__description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+						button.adventure__button.readmore read more
+			section.exploreSection#exploreTheWorld 
+				.wrapper 
+					.exploreSection__body 
+						.exploreSection__text.spanSection 
+							.spanSection__text 
+								span.exploreSection__absotule 01
+								p.spanSection__subtitle.subtitle GET STARTED
+								h2.spanSection__title.title 
+									| Explore 
+									br
+									| the World with us
+								p.spanSection__description.description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							.spanSection__image
+								img(src="./img/01BigImg.jpg", alt="Rocks in the sea")
+						.exploreSection__imagesBody
+							.exploreSection__smallImages
+								img(src="./img/01small1.jpg", alt="Sea bich")
+							.exploreSection__smallImages
+								img(src="./img/01small2.jpg", alt="Mountains")
+							.exploreSection__smallImages
+								img(src="./img/01small3.jpg", alt="Man and nature")
+							.exploreSection__smallImages
+								img(src="./img/01small4.jpg", alt="Rocks in the sea")
+			section.dontMissSection 
+				.wrapper 
+					.dontMissSection__body 
+						span.dontMissSection__absolute 02
+						.dontMissSection__image
+							img(src="./img/02.jpg", alt="Sea bich")
+						.dontMissSection__text
+							p.dontMissSection__subtitle.subtitle HIKING ESSENTIALS
+							h2.dontMissSection__title.title Don`t miss!
+							p.dontMissSection__description.description The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.
+			section.openTheWindow
+				.wrapper 
+					.openTheWindow__body 
+						.openTheWindow__text.spanSection 
+							span.openTheWindow__absotule 03
+							.spanSection__text.openTheWindow__span 
+								p.spanSection__subtitle.subtitle WHERE YOU GO IS THE KEY
+								h2.spanSection__title.title Open the wihdow
+								p.spanSection__description.description.openTheWindow__description To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..
+							.spanSection__image
+								img(src="./img/03BigImg.jpg", alt="Rocks in the sea")
+						.openTheWindow__imagesBody
+							.openTheWindow__smallImages
+								img(src="./img/03small1.jpg", alt="Grass in the bich")
+							.openTheWindow__smallImages
+								img(src="./img/03small2.jpg", alt="Road in mountains")
+							.openTheWindow__smallImages
+								img(src="./img/03small3.jpg", alt="Mountains")
+							.openTheWindow__smallImages
+								img(src="./img/03small4.jpg", alt="Rocks in the bich")
+			section.statistic
+				.wrapper 
+					.statictic__body 
+						.visited.statistic__container 
+							p.count 44
+							p.statistic__subtitle Visited countries
+						.travel.statistic__container 
+							p.count 120
+							p.statistic__subtitle Travel tours
+						.clients.statistic__container 
+							p.count 1020
+							p.statistic__subtitle Happy clients
+						.tracking.statistic__container
+							p.count 21
+							p.statistic__subtitle Tracking tours
+			section.exploreMore 
+				.wrapper 
+					.exploreMore__body 
+						.exploreMore__text 
+							h2.exploreMore__title.title Explore more
+							p.exploreMore__description.description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							button.exploreMore__button.readmore read more
+						.exploreMore__image
+							img(src="./img/exploreMoreImg.jpg", alt="Rocks and star sky")
 		footer.footer 
 			.wrapper 
 				.footer__body 
